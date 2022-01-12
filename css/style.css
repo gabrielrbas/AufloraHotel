@@ -8,6 +8,14 @@ body {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 .container {
     max-width: 1150px;
     min-width: 650px;
@@ -57,8 +65,61 @@ body {
     width: 530px;        
     position: absolute;
     top: 0;
-    right: 0;    
-    text-align: end;
+    right: 0;        
+}
+
+.links {
+    margin: 10px 0;    
+    width: 185px;
+    float: right;    
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.links a {
+    padding: 5px;
+    color: #FAF3EF;    
+}
+
+.links a:hover {
+    background: #BD8334;
+}
+
+.reservar {
+    display: grid;
+    margin-right: 15px;    
+    margin-left: 25px;    
+    width: 190px;
+    float: right;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.reservar h3 { 
+    border-top: #BD8334 solid;
+    border-bottom: #BD8334 solid;
+    margin-bottom: 45px;
+    color: #FAF3EF;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.reservar button {    
+    background: #BD8334;
+    color: #FAF3EF;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;    
+}
+
+.reservar button:hover {
+    background: #FAF3EF;
+    color: #604B4B;
+    cursor: pointer;
 }
 
 /* =-=-=-=-=-=-=-=-=-=-= Estilizando Conteudo =-=-=-=-=-=-=-=-=-=-= */
