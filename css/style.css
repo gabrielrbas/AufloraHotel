@@ -24,6 +24,12 @@ li {
 
 .box {
     background: #FAF3EF;    
+    border-top: 5px solid #BD8334;
+}
+
+div.topo {
+    border-top: none;
+
 }
 
 /* =-=-=-=-=-=-=-=-=-=-= Estilizando Cabecalho =-=-=-=-=-=-=-=-=-=-= */
@@ -125,15 +131,36 @@ li {
 /* =-=-=-=-=-=-=-=-=-=-= Estilizando Conteudo =-=-=-=-=-=-=-=-=-=-= */
 
 .conteudo {
-    display: grid;
-    
+    display: grid;    
 
     grid-template-columns: 1fr 1fr;
 }
 
 .box-3 {
-   height: 60vh;
-   grid-column: 1/3;
+    background: url("../img/imagemParallax.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    grid-column: 1/3;
+}
+
+.titulo {
+    display: grid;    
+    height: 60vh;
+    font-size: 12px;
+    text-transform: uppercase;        
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.titulo h2 {    
+    color: #BD8334;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: #604B4B;
+    font-weight: bold;
+    letter-spacing: 5px;
+
 }
 
 .box-4 {
